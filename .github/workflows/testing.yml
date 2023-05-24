@@ -7,7 +7,7 @@ on:
 jobs:
   close-pr:
     runs-on: ubuntu-latest
-actions/checkout@v3
+
     steps:
       - name: Check PRs for auto-close
         uses: actions/github-script@v5
